@@ -1,0 +1,146 @@
+.required {
+  color: red; }
+
+.overlay-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: .6;
+  filter: alpha(opacity=60);
+  z-index: 1;
+  display: none; }
+
+.overlay {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: none; }
+
+.modal {
+  padding: 10px;
+  width: 500px;
+  height: auto;
+  border: 10px solid rgba(247, 213, 159, 0.87);
+  border-radius: 5px !important;
+  -webkit-border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  -ms-border-radius: 5px !important;
+  position: absolute;
+  top: 9999999px;
+  left: 50%;
+  margin-left: -250px;
+  background-color: #fff;
+  z-index: 1010;
+  display: block; }
+
+.action_msg, #register_msg, #update_msg {
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold; }
+
+.msg_okay, .msg_err {
+  border: 2px solid green;
+  border-radius: 5px !important;
+  -webkit-border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  -ms-border-radius: 5px !important;
+  color: green;
+  padding: 3px; }
+
+.msg_err {
+  border-color: red;
+  color: red; }
+
+.close {
+  position: absolute;
+  background-image: url(../assets/close.png);
+  height: 45px;
+  width: 45px;
+  top: -20px;
+  right: -20px;
+  z-index: 1111; }
+
+.progressbar {
+  width: 400px;
+  height: 15px;
+  border: 2px solid green;
+  display: none;
+  @inlude border-radius( 10px ); }
+  .progressbar .progress {
+    width: 0;
+    height: 15px;
+    background-color: #d2f8c1; }
+
+#presslaffsubmit {
+  border-radius: 5px !important;
+  -webkit-border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  -ms-border-radius: 5px !important;
+  background-color: #37383a !important;
+  border: 2px solid #fff !important;
+  color: #fff !important;
+  font-weight: bold; }
+  
+  .p-contests
+  {
+	  min-height: 250px;
+	  height: 250px;
+	  overflow: hidden;
+  }
+  
+  .p-middle
+  {
+	  text-align: center;
+  }
+  
+  .p-nav table
+  {
+	  width: 100%
+	  
+  }
+  
+  #p-next-contest
+  {
+	  text-align:right;
+  }
+  
+  #p-prev-contest
+  {
+	  text-align: left;
+  }
+  
+  #p-next-contest:hover, #p-prev-contest:hover
+  {
+	  cursor: pointer;
+	  color: #ffdc2c;
+  }
+
+
+  
+  .p-title
+  {
+	  font-weight: bold;
+	  font-size: 1.2em;
+  }
+  
+  .presslaff-list
+  {
+	  width: inherit;
+	  height: inherit;
+	  
+  }
+  
+  .presslaff-item
+  {
+	  margin: 0 20px !important; 
+	  position: relative;
+  }
+
+/*# sourceMappingURL=public.css.map */

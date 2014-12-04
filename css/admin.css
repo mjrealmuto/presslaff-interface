@@ -1,0 +1,27 @@
+/* This stylesheet is used to style the admin option form of the plugin. */
+
+.msg_okay
+{
+	border: 2px solid green;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	background-color: #d2f8c1;
+	color: green;
+	padding: 3px 0px;
+} 
+
+.msg_err
+{
+	border: 2px solid red;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	background-color: #f8c9c9;
+	color: red;
+	padding: 3px 0px;
+	margin: 2px;
+
+}
